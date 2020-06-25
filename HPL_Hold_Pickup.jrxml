@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
-<!-- 2020-06-16T14:44:58 -->
+<!-- 2020-06-25T16:40:27 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Hold_Pickup" pageWidth="612" pageHeight="1150" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isIgnorePagination="true" uuid="d4ce732f-4f5d-48a2-9d6a-8331f4108dc8">
 	<property name="ireport.scriptlethandling" value="0"/>
 	<property name="ireport.encoding" value="UTF-8"/>
@@ -574,7 +574,7 @@ Tue and Thu:  2pm–7pm]]></text>
 				<text><![CDATA[How do I make an appointment?]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="200" width="572" height="22" forecolor="#030303" uuid="87371af6-a627-4056-9411-cfa6271745b9">
+				<reportElement key="staticText-46" x="0" y="228" width="572" height="22" forecolor="#030303" uuid="87371af6-a627-4056-9411-cfa6271745b9">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -583,7 +583,7 @@ Tue and Thu:  2pm–7pm]]></text>
 				<text><![CDATA[To make an appointment by phone, call us during the above hours at (630) 627-0316.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="227" width="572" height="22" forecolor="#030303" uuid="23ac1f3d-0cfb-4f50-a2e5-8fa5680f0b40">
+				<reportElement key="staticText-46" x="0" y="255" width="572" height="22" forecolor="#030303" uuid="23ac1f3d-0cfb-4f50-a2e5-8fa5680f0b40">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -592,7 +592,7 @@ Tue and Thu:  2pm–7pm]]></text>
 				<text><![CDATA[What is the process for pickup? ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="249" width="572" height="156" forecolor="#030303" uuid="db6e86f6-f261-45e4-868b-8214244ab255">
+				<reportElement key="staticText-46" x="0" y="277" width="572" height="156" forecolor="#030303" uuid="db6e86f6-f261-45e4-868b-8214244ab255">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -607,7 +607,7 @@ Please do not attempt to enter the Library building past the initial set of door
 If you have a question or concern about your items, or if you need items brought out to your car, call (630) 627-0316 when parked in a "Plum Pick Up" spot.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="410" width="572" height="22" forecolor="#030303" uuid="0f6398d9-692b-4b33-a483-7b4df4442daa">
+				<reportElement key="staticText-46" x="0" y="438" width="572" height="22" forecolor="#030303" uuid="0f6398d9-692b-4b33-a483-7b4df4442daa">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -616,7 +616,7 @@ If you have a question or concern about your items, or if you need items brought
 				<text><![CDATA[How long can I keep my Library materials?]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="432" width="572" height="18" forecolor="#030303" uuid="bc2a9b15-26bd-413f-a667-b7cfc80ae297">
+				<reportElement key="staticText-46" x="0" y="460" width="572" height="18" forecolor="#030303" uuid="bc2a9b15-26bd-413f-a667-b7cfc80ae297">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -625,7 +625,7 @@ If you have a question or concern about your items, or if you need items brought
 				<text><![CDATA[All items will be checked out for 3 weeks with 2 automatic renewals if no one is waiting for the item.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="455" width="572" height="22" forecolor="#030303" uuid="9d6f8689-4a3f-4038-bbd7-61ef049c6f5e">
+				<reportElement key="staticText-46" x="0" y="483" width="572" height="22" forecolor="#030303" uuid="9d6f8689-4a3f-4038-bbd7-61ef049c6f5e">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -634,7 +634,7 @@ If you have a question or concern about your items, or if you need items brought
 				<text><![CDATA[How do I return my Library materials?]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="477" width="572" height="18" forecolor="#030303" uuid="24c50e6c-1204-40fd-a911-094f915c4f5f">
+				<reportElement key="staticText-46" x="0" y="505" width="572" height="18" forecolor="#030303" uuid="24c50e6c-1204-40fd-a911-094f915c4f5f">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -643,7 +643,7 @@ If you have a question or concern about your items, or if you need items brought
 				<text><![CDATA[Return all materials to our curbside book drops. Please do not hand items directly to staff.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="500" width="572" height="22" forecolor="#030303" uuid="6457d73d-32e0-4ad8-90e3-8c9682ec9a5f">
+				<reportElement key="staticText-46" x="0" y="528" width="572" height="22" forecolor="#030303" uuid="6457d73d-32e0-4ad8-90e3-8c9682ec9a5f">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -652,7 +652,7 @@ If you have a question or concern about your items, or if you need items brought
 				<text><![CDATA[What measures is the Library taking to keep patrons and staff safe?]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="522" width="572" height="88" forecolor="#030303" uuid="e2239038-ac9f-4dc6-af26-7b4f057389ea">
+				<reportElement key="staticText-46" x="0" y="550" width="572" height="88" forecolor="#030303" uuid="e2239038-ac9f-4dc6-af26-7b4f057389ea">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -664,7 +664,7 @@ If you have a question or concern about your items, or if you need items brought
 ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="615" width="572" height="22" forecolor="#030303" uuid="0d1195cb-9500-4495-9968-4327ddd1472c">
+				<reportElement key="staticText-46" x="0" y="643" width="572" height="22" forecolor="#030303" uuid="0d1195cb-9500-4495-9968-4327ddd1472c">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -673,7 +673,7 @@ If you have a question or concern about your items, or if you need items brought
 				<text><![CDATA[Additional questions?]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="665" width="572" height="18" forecolor="#030303" uuid="356a7171-6238-4aa4-bcaf-162444237d58">
+				<reportElement key="staticText-46" x="0" y="693" width="572" height="18" forecolor="#030303" uuid="356a7171-6238-4aa4-bcaf-162444237d58">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -682,7 +682,7 @@ If you have a question or concern about your items, or if you need items brought
 				<text><![CDATA[Thank you for being a Helen Plum Library cardholder!]]></text>
 			</staticText>
 			<textField hyperlinkType="Reference">
-				<reportElement key="staticText-46" x="0" y="180" width="572" height="22" forecolor="#80298F" uuid="58585653-d59f-42e0-906d-72ea9d2bad20"/>
+				<reportElement key="staticText-46" x="0" y="180" width="571" height="22" forecolor="#80298F" uuid="58585653-d59f-42e0-906d-72ea9d2bad20"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
 					<font fontName="SansSerif" size="12" isBold="true" isItalic="false" isUnderline="true" pdfFontName="Helvetica-Oblique"/>
 				</textElement>
@@ -691,7 +691,7 @@ If you have a question or concern about your items, or if you need items brought
 				<hyperlinkTooltipExpression><![CDATA["https://www.helenplum.org/plum-pickup/schedule"]]></hyperlinkTooltipExpression>
 			</textField>
 			<textField hyperlinkType="Reference">
-				<reportElement key="staticText-46" x="0" y="637" width="572" height="18" forecolor="#80298F" uuid="85fca4b2-f7c9-4261-ab31-12f415b248c3">
+				<reportElement key="staticText-46" x="0" y="665" width="572" height="18" forecolor="#80298F" uuid="85fca4b2-f7c9-4261-ab31-12f415b248c3">
 					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
@@ -701,6 +701,15 @@ If you have a question or concern about your items, or if you need items brought
 				<hyperlinkReferenceExpression><![CDATA["https://www.helenplum.org/contact"]]></hyperlinkReferenceExpression>
 				<hyperlinkTooltipExpression><![CDATA["https://www.helenplum.org/contact"]]></hyperlinkTooltipExpression>
 			</textField>
+			<staticText>
+				<reportElement key="staticText-46" x="0" y="202" width="571" height="22" forecolor="#FF0400" uuid="d68e52c7-3713-4542-8210-56bf86f3855b">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
+					<font fontName="SansSerif" size="12" isBold="false" isItalic="false" pdfFontName="Helvetica-Oblique"/>
+				</textElement>
+				<text><![CDATA[NOTE: Please enter your full 14-digit card number when logging in to schedule an appointment.]]></text>
+			</staticText>
 		</band>
 	</lastPageFooter>
 	<summary>
