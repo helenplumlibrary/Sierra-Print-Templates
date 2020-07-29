@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
-<!-- 2020-06-25T16:40:27 -->
+<!-- 2020-07-29T15:36:52 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Hold_Pickup" pageWidth="612" pageHeight="1150" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isIgnorePagination="true" uuid="d4ce732f-4f5d-48a2-9d6a-8331f4108dc8">
 	<property name="ireport.scriptlethandling" value="0"/>
 	<property name="ireport.encoding" value="UTF-8"/>
@@ -481,11 +481,11 @@
 		<band splitType="Stretch"/>
 	</pageFooter>
 	<lastPageFooter>
-		<band height="800" splitType="Stretch">
+		<band height="500" splitType="Stretch">
 			<property name="local_mesure_unitheight" value="pixel"/>
 			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 			<line>
-				<reportElement x="-20" y="717" width="611" height="2" forecolor="#003399" uuid="172aa2aa-fed6-4210-a5dd-d92344459c00">
+				<reportElement x="-20" y="426" width="611" height="2" forecolor="#003399" uuid="172aa2aa-fed6-4210-a5dd-d92344459c00">
 					<property name="local_mesure_unitheight" value="pixel"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
@@ -503,17 +503,8 @@
 					<pen lineWidth="1.5" lineColor="#C1C6C8"/>
 				</graphicElement>
 			</line>
-			<staticText>
-				<reportElement key="staticText-46" x="0" y="12" width="572" height="38" forecolor="#80298F" uuid="4ac8e421-97df-40de-a393-8ed8c4fa3b4a">
-					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
-				</reportElement>
-				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
-					<font fontName="SansSerif" size="26" isBold="false" isItalic="false" pdfFontName="Helvetica-Oblique"/>
-				</textElement>
-				<text><![CDATA[Contactless Plum Pickup Instructions]]></text>
-			</staticText>
 			<textField>
-				<reportElement key="staticText-43" stretchType="RelativeToBandHeight" x="0" y="724" width="572" height="19" uuid="3c2c59b0-858f-44e2-9d1e-bf0bde50f681">
+				<reportElement key="staticText-43" stretchType="RelativeToBandHeight" x="0" y="436" width="572" height="19" uuid="3c2c59b0-858f-44e2-9d1e-bf0bde50f681">
 					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
 				</reportElement>
 				<box>
@@ -528,7 +519,7 @@
 				<textFieldExpression><![CDATA["This is an automated courtesy notice.  Please do not reply directly to this email."]]></textFieldExpression>
 			</textField>
 			<textField pattern="" isBlankWhenNull="false" hyperlinkType="Reference">
-				<reportElement key="textField-52" mode="Opaque" x="0" y="751" width="571" height="18" forecolor="#80298F" backcolor="#FFFFFF" uuid="c052160a-61fd-43e1-9aab-a5a720ae87e7">
+				<reportElement key="textField-52" mode="Opaque" x="0" y="463" width="571" height="18" forecolor="#80298F" backcolor="#FFFFFF" uuid="c052160a-61fd-43e1-9aab-a5a720ae87e7">
 					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
 				</reportElement>
 				<box>
@@ -545,27 +536,26 @@
 				<hyperlinkTooltipExpression><![CDATA["https://catalog.helenplum.org/iii/encore/myaccount"]]></hyperlinkTooltipExpression>
 			</textField>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="50" width="572" height="38" forecolor="#030303" uuid="16127525-c88a-45f7-8889-051fb95a3a16">
+				<reportElement key="staticText-46" x="0" y="8" width="572" height="38" forecolor="#030303" uuid="16127525-c88a-45f7-8889-051fb95a3a16">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
 					<font fontName="SansSerif" size="12" isBold="false" isItalic="false" pdfFontName="Helvetica-Oblique"/>
 				</textElement>
-				<text><![CDATA[Thank you for requesting Library materials! We have received your request, and you may now schedule your appointment for pickup.]]></text>
+				<text><![CDATA[Thank you for requesting Library materials! We have received your request, and your item is now available for pick up.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="88" width="572" height="70" forecolor="#80298F" uuid="0c255546-77bc-4378-846e-b68578c0cbb0">
+				<reportElement key="staticText-46" x="0" y="73" width="572" height="36" forecolor="#000000" uuid="0c255546-77bc-4378-846e-b68578c0cbb0">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
-					<font fontName="SansSerif" size="12" isBold="true" isItalic="false" pdfFontName="Helvetica-Oblique"/>
+					<font fontName="SansSerif" size="12" isBold="false" isItalic="false" pdfFontName="Helvetica-Oblique"/>
 				</textElement>
-				<text><![CDATA[Plum Pick Up Service Hours, By Appointment Only
-Mon, Wed, Fri and Sat: 10am–3pm
-Tue and Thu:  2pm–7pm]]></text>
+				<text><![CDATA[Mon, Wed, Fri and Sat: 9am–4pm
+Tue and Thu:  1pm–8pm]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="158" width="572" height="22" forecolor="#030303" uuid="52ac791e-6445-464e-bf1c-91680d34444a">
+				<reportElement key="staticText-46" x="0" y="116" width="572" height="22" forecolor="#030303" uuid="52ac791e-6445-464e-bf1c-91680d34444a">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -574,7 +564,7 @@ Tue and Thu:  2pm–7pm]]></text>
 				<text><![CDATA[How do I make an appointment?]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="228" width="572" height="22" forecolor="#030303" uuid="87371af6-a627-4056-9411-cfa6271745b9">
+				<reportElement key="staticText-46" x="0" y="205" width="572" height="22" forecolor="#030303" uuid="87371af6-a627-4056-9411-cfa6271745b9">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -583,67 +573,7 @@ Tue and Thu:  2pm–7pm]]></text>
 				<text><![CDATA[To make an appointment by phone, call us during the above hours at (630) 627-0316.]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="255" width="572" height="22" forecolor="#030303" uuid="23ac1f3d-0cfb-4f50-a2e5-8fa5680f0b40">
-					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
-					<font fontName="SansSerif" size="12" isBold="true" isItalic="false" pdfFontName="Helvetica-Oblique"/>
-				</textElement>
-				<text><![CDATA[What is the process for pickup? ]]></text>
-			</staticText>
-			<staticText>
-				<reportElement key="staticText-46" x="0" y="277" width="572" height="156" forecolor="#030303" uuid="db6e86f6-f261-45e4-868b-8214244ab255">
-					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
-					<font fontName="SansSerif" size="12" isBold="false" isItalic="false" pdfFontName="Helvetica-Oblique"/>
-				</textElement>
-				<text><![CDATA[1. Arrive at your scheduled appointment time. Drivers may park in one of the designated “Plum Pick Up” spots in front of the building on Maple Street.
-2. Once parked, come to the front doors. Please maintain 6 feet of social distance from staff and cardholders in front of you in line, as indicated on the sidewalk. 
-3. Your materials will be on a table in our vestibule entrance, marked with your name. 
-4. Staff will verbally verify your name and then you simply grab your items and go!
-
-Please do not attempt to enter the Library building past the initial set of doors.
-If you have a question or concern about your items, or if you need items brought out to your car, call (630) 627-0316 when parked in a "Plum Pick Up" spot.]]></text>
-			</staticText>
-			<staticText>
-				<reportElement key="staticText-46" x="0" y="438" width="572" height="22" forecolor="#030303" uuid="0f6398d9-692b-4b33-a483-7b4df4442daa">
-					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
-					<font fontName="SansSerif" size="12" isBold="true" isItalic="false" pdfFontName="Helvetica-Oblique"/>
-				</textElement>
-				<text><![CDATA[How long can I keep my Library materials?]]></text>
-			</staticText>
-			<staticText>
-				<reportElement key="staticText-46" x="0" y="460" width="572" height="18" forecolor="#030303" uuid="bc2a9b15-26bd-413f-a667-b7cfc80ae297">
-					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
-					<font fontName="SansSerif" size="12" isBold="false" isItalic="false" pdfFontName="Helvetica-Oblique"/>
-				</textElement>
-				<text><![CDATA[All items will be checked out for 3 weeks with 2 automatic renewals if no one is waiting for the item.]]></text>
-			</staticText>
-			<staticText>
-				<reportElement key="staticText-46" x="0" y="483" width="572" height="22" forecolor="#030303" uuid="9d6f8689-4a3f-4038-bbd7-61ef049c6f5e">
-					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
-					<font fontName="SansSerif" size="12" isBold="true" isItalic="false" pdfFontName="Helvetica-Oblique"/>
-				</textElement>
-				<text><![CDATA[How do I return my Library materials?]]></text>
-			</staticText>
-			<staticText>
-				<reportElement key="staticText-46" x="0" y="505" width="572" height="18" forecolor="#030303" uuid="24c50e6c-1204-40fd-a911-094f915c4f5f">
-					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
-				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
-					<font fontName="SansSerif" size="12" isBold="false" isItalic="false" pdfFontName="Helvetica-Oblique"/>
-				</textElement>
-				<text><![CDATA[Return all materials to our curbside book drops. Please do not hand items directly to staff.]]></text>
-			</staticText>
-			<staticText>
-				<reportElement key="staticText-46" x="0" y="528" width="572" height="22" forecolor="#030303" uuid="6457d73d-32e0-4ad8-90e3-8c9682ec9a5f">
+				<reportElement key="staticText-46" x="0" y="237" width="572" height="22" forecolor="#030303" uuid="6457d73d-32e0-4ad8-90e3-8c9682ec9a5f">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -652,19 +582,19 @@ If you have a question or concern about your items, or if you need items brought
 				<text><![CDATA[What measures is the Library taking to keep patrons and staff safe?]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="550" width="572" height="88" forecolor="#030303" uuid="e2239038-ac9f-4dc6-af26-7b4f057389ea">
+				<reportElement key="staticText-46" x="0" y="259" width="572" height="88" forecolor="#030303" uuid="e2239038-ac9f-4dc6-af26-7b4f057389ea">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
 					<font fontName="SansSerif" size="12" isBold="false" isItalic="false" pdfFontName="Helvetica-Oblique"/>
 				</textElement>
-				<text><![CDATA[• All items will be quarantined for 7 days upon return, and checked in when the quarantine period is complete. No late fees will be assessed during this time.
+				<text><![CDATA[• All items will be quarantined upon return based on the most current safety guidelines, and checked in when the quarantine period is complete. No late fees will be assessed during this time.
 • Staff will wear protective gear while handling materials and wash hands after.
 • In accordance with state mandate, patrons and staff are expected to wear face masks and maintain 6 feet of social distancing at all times.
 ]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="643" width="572" height="22" forecolor="#030303" uuid="0d1195cb-9500-4495-9968-4327ddd1472c">
+				<reportElement key="staticText-46" x="0" y="352" width="572" height="22" forecolor="#030303" uuid="0d1195cb-9500-4495-9968-4327ddd1472c">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -673,7 +603,7 @@ If you have a question or concern about your items, or if you need items brought
 				<text><![CDATA[Additional questions?]]></text>
 			</staticText>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="693" width="572" height="18" forecolor="#030303" uuid="356a7171-6238-4aa4-bcaf-162444237d58">
+				<reportElement key="staticText-46" x="0" y="402" width="572" height="18" forecolor="#030303" uuid="356a7171-6238-4aa4-bcaf-162444237d58">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
@@ -682,16 +612,16 @@ If you have a question or concern about your items, or if you need items brought
 				<text><![CDATA[Thank you for being a Helen Plum Library cardholder!]]></text>
 			</staticText>
 			<textField hyperlinkType="Reference">
-				<reportElement key="staticText-46" x="0" y="180" width="571" height="22" forecolor="#80298F" uuid="58585653-d59f-42e0-906d-72ea9d2bad20"/>
+				<reportElement key="staticText-46" x="0" y="138" width="571" height="42" forecolor="#80298F" uuid="58585653-d59f-42e0-906d-72ea9d2bad20"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
 					<font fontName="SansSerif" size="12" isBold="true" isItalic="false" isUnderline="true" pdfFontName="Helvetica-Oblique"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Click here to make an appointment online."]]></textFieldExpression>
+				<textFieldExpression><![CDATA["If you would like to have your items checked out, ready to grab-n-go with contactless pickup, schedule a Plum Pickup Service appointment here."]]></textFieldExpression>
 				<hyperlinkReferenceExpression><![CDATA["https://www.helenplum.org/plum-pickup/schedule"]]></hyperlinkReferenceExpression>
 				<hyperlinkTooltipExpression><![CDATA["https://www.helenplum.org/plum-pickup/schedule"]]></hyperlinkTooltipExpression>
 			</textField>
 			<textField hyperlinkType="Reference">
-				<reportElement key="staticText-46" x="0" y="665" width="572" height="18" forecolor="#80298F" uuid="85fca4b2-f7c9-4261-ab31-12f415b248c3">
+				<reportElement key="staticText-46" x="0" y="374" width="572" height="18" forecolor="#80298F" uuid="85fca4b2-f7c9-4261-ab31-12f415b248c3">
 					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
@@ -702,13 +632,22 @@ If you have a question or concern about your items, or if you need items brought
 				<hyperlinkTooltipExpression><![CDATA["https://www.helenplum.org/contact"]]></hyperlinkTooltipExpression>
 			</textField>
 			<staticText>
-				<reportElement key="staticText-46" x="0" y="202" width="571" height="22" forecolor="#FF0400" uuid="d68e52c7-3713-4542-8210-56bf86f3855b">
+				<reportElement key="staticText-46" x="0" y="180" width="571" height="22" forecolor="#FF0400" uuid="d68e52c7-3713-4542-8210-56bf86f3855b">
 					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
 					<font fontName="SansSerif" size="12" isBold="false" isItalic="false" pdfFontName="Helvetica-Oblique"/>
 				</textElement>
 				<text><![CDATA[NOTE: Please enter your full 14-digit card number when logging in to schedule an appointment.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement key="staticText-46" x="0" y="51" width="572" height="22" forecolor="#030303" uuid="8666ac6c-3af6-4e39-af82-154d73ee0325">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
+					<font fontName="SansSerif" size="12" isBold="true" isItalic="false" pdfFontName="Helvetica-Oblique"/>
+				</textElement>
+				<text><![CDATA[Library Hours:]]></text>
 			</staticText>
 		</band>
 	</lastPageFooter>
