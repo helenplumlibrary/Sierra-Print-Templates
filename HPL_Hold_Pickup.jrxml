@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
-<!-- 2020-07-29T15:36:52 -->
+<!-- 2020-07-30T13:23:10 -->
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Hold_Pickup" pageWidth="612" pageHeight="1150" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isIgnorePagination="true" uuid="d4ce732f-4f5d-48a2-9d6a-8331f4108dc8">
 	<property name="ireport.scriptlethandling" value="0"/>
 	<property name="ireport.encoding" value="UTF-8"/>
@@ -277,7 +277,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="20" isBold="true" isUnderline="false" pdfFontName="Helvetica-Bold"/>
 				</textElement>
-				<text><![CDATA[Items your requested are available for pickup]]></text>
+				<text><![CDATA[Items you requested are available for pickup]]></text>
 			</staticText>
 			<image isLazy="true">
 				<reportElement x="0" y="0" width="175" height="55" uuid="96510361-c120-42ce-a6b2-276b06dd3149">
